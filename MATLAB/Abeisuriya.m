@@ -85,5 +85,3 @@ xlabel('Simulation Time', 'FontSize', 11, 'Color', c_Ax);
 ylabel('Input Perturbation', 'FontSize', 11, 'Color', c_Ax);
 xlim([0 T_sim]); ylim([0 5]);
 set(gca, 'LineWidth', 1.2, 'Box', 'off', 'XColor', c_Ax, 'YColor', c_Ax);
-
-%sgtitle('G. Abeysuriya et al. (2018): ISP Response', 'FontSize', 13, 'FontWeight', 'bold', 'Color', c_Ax);
