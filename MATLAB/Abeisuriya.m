@@ -61,17 +61,14 @@ subplot(3,1,1); hold on;
 yline(rho, '--', 'Color', c_Target, 'LineWidth', 1.5);
 plot(time, E, 'Color', c_Exc, 'LineWidth', 2);
 text(100, rho+0.1, 'Target \rho', 'Color', c_Target, 'FontSize', 10);
-%title('Excitatory Rate E(t)', 'FontSize', 12, 'FontWeight', 'bold', 'Color', c_Ax);
 ylabel('Firing Rate', 'FontSize', 11, 'Color', c_Ax);
 
-% FIX: Increased Limit to 1.1 because E(t) can spike up to 1.0
 xlim([0 T_sim]); ylim([0 1.1]); 
 set(gca, 'LineWidth', 1.2, 'Box', 'off', 'XColor', c_Ax, 'YColor', c_Ax, 'XTick', []);
 
 % Panel B: Inhibitory Weight
 subplot(3,1,2); hold on;
 plot(time, c_ie, 'Color', c_Inh, 'LineWidth', 2.5);
-%title('Inhibitory Weight c_{ie}(t)', 'FontSize', 12, 'FontWeight', 'bold', 'Color', c_Ax);
 ylabel('Inhibitory Weight c_{ie}(t)', 'FontSize', 11, 'Color', c_Ax);
 xlim([0 T_sim]); 
 set(gca, 'LineWidth', 1.2, 'Box', 'off', 'XColor', c_Ax, 'YColor', c_Ax, 'XTick', []);
@@ -85,3 +82,4 @@ xlabel('Simulation Time', 'FontSize', 11, 'Color', c_Ax);
 ylabel('Input Perturbation', 'FontSize', 11, 'Color', c_Ax);
 xlim([0 T_sim]); ylim([0 5]);
 set(gca, 'LineWidth', 1.2, 'Box', 'off', 'XColor', c_Ax, 'YColor', c_Ax);
+
