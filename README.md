@@ -22,7 +22,7 @@ The simulations cover a broad range of biological plasticity mechanisms:
 - Abeysuriya et al. (Inhibitory Plasticity): Local inhibitory strength changes to regulate excitatory firing rates.
 - Stasinski et al. (Homeodynamic Feedback): Two-step homeostatic tuning in Jansen-Rit NMM networks.
 - Deco et al. (FIC): Adjustment of local inhibition Ji​ to clamp excitatory firing rates at specific targets.
-- Schirner et al. (E/I Balance): Tuning of excitation-inhibition balance by adjusting the ratio of long-range excitation (w^LRE) to feedforward inhibition .
+- Schirner et al. (E/I Balance): Tuning of excitation-inhibition balance by adjusting the ratio of long-range excitation to feedforward inhibition .
 
 **Structural Plasticity**
 - Stam et al. (SDP and GDP): Phase-driven LTP/LTD combined with distance-based structural growth.
