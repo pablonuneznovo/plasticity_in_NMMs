@@ -8,7 +8,7 @@ The code is organized into two directories, one with MATLAB scripts and one with
 The simulations cover a broad range of biological plasticity mechanisms:
 
 **Short-Term Plasticity (STP)**
-- Kilpatrick-Bressloff (Neural Field Heuristic STD): Spatially continuous depression where available resources Q(x) modulate synaptic weight.
+- Kilpatrick & Bressloff (Neural Field Heuristic STD): Spatially continuous depression where available resources Q(x) modulate synaptic weight.
 - Taher et al. (Exact QIF Mean-Field STP): Dynamic gain control via neurotransmitter depletion and calcium accumulation.
 - Gast et al. (Exact QIF Mean-Field STP): Resource depletion driven by individual presynaptic spike trains to account for heterogeneity
 
