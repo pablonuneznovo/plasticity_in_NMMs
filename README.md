@@ -2,7 +2,7 @@
 
 This repository contains the code necessary to generate figures ilustrating the implementation of various neuroplasticity mechanisms within Neural Field Models (NFMs).
 
-The code is organized into two directories, one with MATLAB scripts and one with Python scripts. The Python folder has an additional script to generate the Schirner et al. E/I balancce tuning algorithm using numba to greatly speed up the processing time and therefor requires numba to be installed to run.
+The code is organized into two directories, one with MATLAB scripts and one with Python scripts. The Python folder has an additional script to generate the Schirner et al. E/I balance tuning algorithm using numba to greatly speed up the processing time and therefor requires numba to be installed to run.
 
 ## Implemented Plasticity Rules
 The simulations cover a broad range of biological plasticity mechanisms:
