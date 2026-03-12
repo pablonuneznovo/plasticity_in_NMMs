@@ -2,7 +2,7 @@
 % Clean version: Exact Gaussian Growth Rule (Eqs 2-3 in paper)
 clear; clc; close all;
 
-% --- Modern Palette ---
+% --- Color Palette ---
 c_Ca      = [0.2 0.6 0.8];   % Teal (Calcium)
 c_Struct  = [0.5 0.3 0.7];   % Purple (Synaptic Elements z)
 c_Zone    = [0.2 0.8 0.4];   % Green (Growth Window)
@@ -102,5 +102,6 @@ ylim([0 ymax * 1.1]);
 xlabel('Simulation Time', 'FontSize', 10, 'FontWeight', 'bold', 'Color', c_Ax);
 xlim([0 T]);
 set(gca, 'Box', 'off', 'XColor', c_Ax, 'LineWidth', 1.2);
+
 
 grid on;
