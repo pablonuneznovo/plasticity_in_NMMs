@@ -1,10 +1,5 @@
 % Reproduction of Schirner et al. (2023) Figure 3a
 % "Learning how network structure shapes decision-making"
-%
-% THE "TRICKS" APPLIED HERE:
-% 1. Averaging: N=20 trials per point.
-% 2. Visualization: Cubic Spline Interpolation for "smooth" curves.
-% 3. Resolution: Logarithmic X-axis spacing.
 
 clearvars -except EI_Tuning_Mechanism; clc; close all;
 
@@ -166,4 +161,5 @@ for k = 1:steps
 end
 washout = floor(60000/P.TR);
 if size(BOLD,2) > washout; R = corr(BOLD(:,washout:end)'); fc = R(1,2); else; fc=0; end
+
 end
