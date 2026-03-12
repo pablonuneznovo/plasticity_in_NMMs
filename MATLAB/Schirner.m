@@ -68,9 +68,7 @@ for i = 1:length(VarParam)
 end
 end
 
-% =========================================================================
-% VISUALIZATION "TRICK" (SPLINE INTERPOLATION)
-% =========================================================================
+% SPLINE INTERPOLATION
 function plot_smooth_curves(X_Data, Y_Noise, Y_Coup, Noises, Couplings)
 figure('Color','w', 'Position', [100 100 500 800]);
 
@@ -163,3 +161,4 @@ washout = floor(60000/P.TR);
 if size(BOLD,2) > washout; R = corr(BOLD(:,washout:end)'); fc = R(1,2); else; fc=0; end
 
 end
+
