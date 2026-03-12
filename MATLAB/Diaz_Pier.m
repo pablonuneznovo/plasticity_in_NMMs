@@ -66,8 +66,6 @@ plot(Ca_range, Growth_Curve, 'k', 'LineWidth', 2);
 xline(eta, '--', 'Color', c_Zone, 'LineWidth', 1.5);
 xline(epsilon, '--', 'Color', [0.8 0.2 0.2], 'LineWidth', 1.5);
 
-% --- FIX: Text Offset ---
-% Added +0.02 to x position and changed alignment to 'left'
 text(epsilon + 0.02, nu*1.1, '\epsilon (Target)', 'Color', [0.8 0.2 0.2], ...
      'FontSize', 9, 'HorizontalAlignment', 'left');
 
@@ -105,3 +103,4 @@ set(gca, 'Box', 'off', 'XColor', c_Ax, 'LineWidth', 1.2);
 
 
 grid on;
+
