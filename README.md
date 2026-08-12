@@ -26,4 +26,5 @@ The simulations cover a broad range of biological plasticity mechanisms:
 
 **Structural Plasticity**
 - Stam et al. (SDP and GDP): Phase-driven LTP/LTD combined with distance-based structural growth.
-- Diaz-Pier et al. (Structural Plasticity): Growth or retraction of "synaptic elements" to maintain a calcium homeostatic target.
+- Diaz-Pier et al. (Structural Plasticity): Growth or retraction of "synaptic elements" to maintain a calcium homeostatic target. Gallinaro et al. Mean-field homeostatic structural plasticity.
+- 
